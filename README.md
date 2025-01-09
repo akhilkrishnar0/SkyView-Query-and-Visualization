@@ -74,8 +74,4 @@ Contributions are welcome! Feel free to fork the repository, create issues, and 
 - **Astroquery**: For enabling access to astronomical data from SkyView and other services.
 - **matplotlib**: For creating the visualization of the survey images in a customizable grid layout.
 
-%## License
 
-%This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-%---
