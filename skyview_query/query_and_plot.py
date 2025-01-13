@@ -5,14 +5,14 @@ from astroquery.skyview import SkyView
 import math
 from matplotlib.colors import LogNorm
 
-def query_and_plot(position, surveys, pixel_size=500):
+def query_and_plot(position, surveys, pixel_size=5):
     """
     Query SkyView for multiple surveys and plot them in a dynamic grid layout with LogNorm normalization.
 
     Parameters:
     - position: str, target position (e.g., "M51" or "00h42m44.3s +41d16m08s")
     - surveys: list, list of surveys to query
-    - pixel_size: int, pixel size for the subplot (default is 500)
+    - pixel_size: int, pixel size for the subplot (default is 5)
     """
     # Query SkyView for the images of the given position and surveys
     images = SkyView.get_images(position=position, survey=surveys)
