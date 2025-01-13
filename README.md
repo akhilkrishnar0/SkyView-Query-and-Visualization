@@ -41,7 +41,7 @@ position = "M51"
 surveys = ["GALEX Near UV", "DSS2 Red", "2MASS-J", "WISE 3.4"]
 
 # Call the query_and_plot function
-query_and_plot(position, surveys, pixel_size=500)
+query_and_plot(position, surveys, pixel_size=5)
 ```
 
 ### Parameters
