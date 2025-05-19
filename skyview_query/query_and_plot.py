@@ -12,7 +12,7 @@ def query_and_plot(position, surveys, pixel_size=5):
     Parameters:
     - position: str, target position (e.g., "M51" or "00h42m44.3s +41d16m08s")
     - surveys: list, list of surveys to query
-    - pixel_size: int, pixel size for the subplot (default is 5)
+    - pixel_size: int, pixel size for the subplot (default is 5) 
     """
     # Query SkyView for the images of the given position and surveys
     images = SkyView.get_images(position=position, survey=surveys)
